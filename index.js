@@ -1,5 +1,5 @@
 let nome = "Rogerio3000"
-let xpJogador = 3456
+let xpJogador = 20456
 let nivel = ""
 
 if(xpJogador <=1000){
@@ -27,3 +27,5 @@ if(xpJogador <=1000){
     nivel = "Radiante";
 
 }
+
+console.log("O Heroi de nome: " + nome, "esta no nivel: " + nivel)
